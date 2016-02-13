@@ -64,7 +64,52 @@
 					<td>Green</td>
 				</tr>
 			</tbody>
-		</table>	
+		</table>
+
+		<h2> Form and Inputs </h2>
+		<!--Block level, action, method needed
+		query string: ? followed by key value pairs separated by an &
+		-->
+		<form action="http://google.com" method="GET">
+			<label>Username: 
+				<input name="user" type="text" placeholder="Username" required>
+			</label>
+
+			<label>Email: 
+				<input name="email" type="email" placeholder="Email Address" required>
+			</label>
+			
+			<label for="pass" >Password:</label>
+			<input id="pass" name="pass" type="password" placeholder="Password">
+			<input type="submit">
+
+			<div>
+				<p>DO you prefer cats or dogs?</p>
+
+				<label>Dogs
+					<input name="petchoice" type="radio" value="DOGS">
+				</label>
+
+				<label>Cats
+					<input name="petchoice" type="radio" value="CATS">
+				</label>
+
+				<select name="colour">
+					<option value="Angry">Red</option>
+					<option value="Sad">Blue</option>
+					<option value="Sick">Green</option>
+				</select>
+
+				<p>Text Inputs</p>
+				<input type="text">
+				<textarea rows="5" cols="5" name="paragraph">HELLO</textarea>
+
+				<!--last button in form submits-->
+				<button>GO!</button>
+
+			</div>
+
+		</form>
 
 	</body>
 </html>
