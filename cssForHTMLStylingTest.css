@@ -1,0 +1,66 @@
+h1 {
+	color: purple;
+	border: 5px dashed red;
+/*	border-color: red;
+	border-width: 5px;
+	border-style: solid;*/
+}
+
+li {
+	color: green;
+}
+
+h1 {
+	color: blue;
+}
+
+h4 {
+	background: rgb(0, 200, 100);
+}
+
+body {
+	background: pink;
+/*	background: url(https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/11/111/111968/hand-drawn-wood-3-o.png?1400097662);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+#bananaStyle {
+	background: yellow;
+}
+
+.done{
+	text-decoration: line-through;
+}
+
+/*
+
+SELECTORS: http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048;
+
+*Star*
+* {
+	applies to every element on page
+}
+
+
+*Descendant selector*
+ul li a {
+	every a tag inside li inside ul
+}
+
+*Adjacent selector*
+h4 + ul {
+	every ul right after h4's on same level
+}
+
+*Attribute selector*
+a[href="http://www.google.com"] {
+	selects all hrefs inside anchor tags
+}
+
+*nth of type*
+ul:nth-pf-type(3){
+	applies style nth number of type
+}
+
+*/
