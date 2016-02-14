@@ -1,2 +1,2 @@
 # BoilerPlate
-Boilerplate code for: HTML and soon others
+Boilerplate code for: HTML and CSS.
